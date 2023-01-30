@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>arkadia-expowiska</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+		</TriggerGroup>
+	</TriggerPackage>
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>arkadia-expowiska</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+		<Alias isActive="yes" isFolder="no">
+            <name>pomoc pluginu expowiska</name>
+            <script>expowiska.alias.print_help()</script>
+            <command></command>
+            <packageName>arkadia-expowiska</packageName>
+            <regex>^/exp_pomoc$</regex>
+        </Alias>
+       <Alias isActive="yes" isFolder="no">
+            <name>reinstalacja pluginu ra</name>
+            <script>expowiska.alias.reinstall_plugin()</script>
+            <command></command>
+            <packageName>arkadia-expowiska</packageName>
+            <regex>^/expowiska_przeinstaluj_plugin$</regex>
+        </Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/wsiowe</name>
+				<script>zabij1 = "czarnego orka"
+						zabij2 = "orka"
+						zabij3 = "trolla"
+						zabij4 = "goblina"
+
+						cecho"&lt;yellow&gt;\nExp na wsiowych ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/wsiowe</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/sztolnia</name>
+				<script>zabij1 = "kobolda"
+						zabij2 = "goblina"
+						zabij3 = "trolla"
+						zabij4 = "pukacza"
+
+						cecho"&lt;yellow&gt;\nExp sztolnia w mahakamie ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .."\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/sztolnia</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/zboje</name>
+				<script>zabij1 = "zboja"
+						zabij2 = "drugiego zboja"
+						zabij3 = "trzeciego zboja"
+						zabij4 = "czwartego zboja"
+
+						cecho"&lt;yellow&gt;\nExp zboje ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .."\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/zboje</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/banici</name>
+				<script>zabij1 = "banite"
+						zabij2 = "trzeciego banite"
+						zabij3 = "trolla"
+						zabij4 = "czwartego banite"
+
+						cecho"&lt;yellow&gt;\nExp na banitach ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/banici</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/bagna</name>
+				<script>zabij1 = "szkielet"
+						zabij2 = "ozywienca"
+						zabij3 = "licza"
+						zabij4 = "golema"
+
+						cecho"&lt;yellow&gt;\nExp na Bagnach Ghouli ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/bagna</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/campo</name>
+				<script>zabij1 = "nieumarlego"
+						zabij2 = "wyverne"
+						zabij3 = "ducha"
+						zabij4 = "khelora"
+
+						cecho"&lt;yellow&gt;\nExp na Campo i okolice ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/campo</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/nieumarli</name>
+				<script>zabij1 = "nieumarlego"
+						zabij2 = "drugiego nieumarlego"
+						zabij3 = "trzeciego nieumarlego"
+						zabij4 = "czwartego nieumarlego"
+
+						cecho"&lt;yellow&gt;\nExp na nieumarlych ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/nieumarli</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/wezen</name>
+				<script>zabij1 = "czarnego orka"
+						zabij2 = "hobgoblina"
+						zabij3 = "trolla"
+						zabij4 = "smoczego ogra"
+
+						cecho"&lt;yellow&gt;\nExp Wezendorf ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/wezen</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/troglodyci</name>
+				<script>zabij1 = "troglodyte"
+						zabij2 = "drugiego troglodyte"
+						zabij3 = "trzeciego troglodyte"
+						zabij4 = "reptiliona"
+
+						cecho"&lt;yellow&gt;\nExp Troglodytach ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/troglodyci</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/zjawy</name>
+				<script>zabij1 = "zjawe"
+						zabij2 = "druga zjawe"
+						zabij3 = "ozywienca"
+						zabij4 = "drugiego ozywienca"
+
+						cecho"&lt;yellow&gt;\nExp Zjawach ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/zjawy</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/skaveni</name>
+				<script>zabij1 = "skavena"
+						zabij2 = "drugiego skavena"
+						zabij3 = "trzeciego skavena"
+						zabij4 = "szczuroogra"
+
+						cecho"&lt;yellow&gt;\nExp szczuroludziach ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/skaveni</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/kasztel</name>
+				<script>zabij1 = "straznika"
+						zabij2 = "rycerza"
+						zabij3 = "dowodce"
+						zabij4 = "barona"
+
+						cecho"&lt;yellow&gt;\nExp w Kasztelu Poitielers ustawiony:";
+						cecho("&lt;yellow&gt;\n ALT+Z - " .. zabij1);
+						cecho("&lt;yellow&gt;\n ALT+X - " .. zabij2);
+						cecho("&lt;yellow&gt;\n ALT+C - " .. zabij3);
+						cecho("&lt;yellow&gt;\n ALT+V - " .. zabij4 .. "\n")</script>
+				<command></command>
+				<packageName>arkadia-expowiska</packageName>
+				<regex>/kasztel</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/exp_zabij1</name>
+				<script>zabij1 = (matches[2])
+						cecho ("&lt;yellow&gt;Arkadia-Expowiska: Podbindowalem &lt;light_slate_blue&gt;" .. zabij1 .. "&lt;yellow&gt; pod klawisz &lt;light_slate_blue&gt;ALT+Z.\n")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^/exp_zabij1 (.*)</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/exp_zabij2</name>
+				<script>zabij2 = (matches[2])
+						cecho ("&lt;yellow&gt;Arkadia-Expowiska: Podbindowalem &lt;light_slate_blue&gt;" .. zabij2 .. "&lt;yellow&gt; pod klawisz &lt;light_slate_blue&gt;ALT+X.\n")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^/exp_zabij2 (.*)</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/exp_zabij3</name>
+				<script>zabij3 = (matches[2])
+						cecho ("&lt;yellow&gt;Arkadia-Expowiska: Podbindowalem &lt;light_slate_blue&gt;" .. zabij3 .. "&lt;yellow&gt; pod klawisz &lt;light_slate_blue&gt;ALT+C.\n")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^/exp_zabij3 (.*)</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/exp_zabij4</name>
+				<script>zabij4 = (matches[2])
+						cecho ("&lt;yellow&gt;Arkadia-Expowiska: Podbindowalem &lt;light_slate_blue&gt;" .. zabij4 .. "&lt;yellow&gt; pod klawisz &lt;light_slate_blue&gt;ALT+V.\n")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^/exp_zabij4 (.*)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>/exp_pokaz</name>
+				<script>cecho ("\n&lt;yellow&gt; Arkadia-Expowiska - Obecnie zbindowane:\n ");
+						cecho ("\n&lt;yellow&gt; ALT+Z - " .. zabij1);
+						cecho ("\n&lt;yellow&gt; ALT+X - " .. zabij2);
+						cecho ("\n&lt;yellow&gt; ALT+C - " .. zabij3);
+						cecho ("\n&lt;yellow&gt; ALT+V - " .. zabij4 .. "\n");</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>/exp_pokaz</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+	<KeyPackage>
+		<KeyGroup isActive="yes" isFolder="yes">
+			<name>arkadia-expowiska</name>
+			<packageName>arkadia-expowiska</packageName>
+			<script></script>
+			<command></command>
+			<keyCode>33554431</keyCode>
+			<keyModifier>0</keyModifier>
+			<Key isActive="yes" isFolder="no">
+				<name>zabij 1</name>
+				<packageName>arkadia-expowiska</packageName>
+				<script>send(expandAlias("/zz " .. zabij1))</script>
+				<command></command>
+				<keyCode>90</keyCode>
+				<keyModifier>134217728</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>zabij 2</name>
+				<packageName>arkadia-expowiska</packageName>
+				<script>send(expandAlias("/zz " .. zabij2))</script>
+				<command></command>
+				<keyCode>88</keyCode>
+				<keyModifier>134217728</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>zabij 3</name>
+				<packageName>arkadia-expowiska</packageName>
+				<script>send(expandAlias("/zz " .. zabij3))</script>
+				<command></command>
+				<keyCode>67</keyCode>
+				<keyModifier>134217728</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>zabij 4</name>
+				<packageName>arkadia-expowiska</packageName>
+				<script>send(expandAlias("/zz " .. zabij4))</script>
+				<command></command>
+				<keyCode>86</keyCode>
+				<keyModifier>134217728</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>przelam1</name>
+				<packageName></packageName>
+				<script>send(expandAlias("przelam obrone " .. zabij1))</script>
+				<command></command>
+				<keyCode>90</keyCode>
+				<keyModifier>167772160</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>przelam2</name>
+				<packageName></packageName>
+				<script>send(expandAlias("przelam obrone " .. zabij2))</script>
+				<command></command>
+				<keyCode>88</keyCode>
+				<keyModifier>167772160</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>przelam3</name>
+				<packageName></packageName>
+				<script>send(expandAlias("przelam obrone " .. zabij3))</script>
+				<command></command>
+				<keyCode>67</keyCode>
+				<keyModifier>167772160</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>przelam4</name>
+				<packageName></packageName>
+				<script>send(expandAlias("przelam obrone " .. zabij4))</script>
+				<command></command>
+				<keyCode>86</keyCode>
+				<keyModifier>167772160</keyModifier>
+			</Key>
+			</Key>
+		</KeyGroup>
+	</KeyPackage>
+</MudletPackage>
